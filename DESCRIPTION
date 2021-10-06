@@ -1,0 +1,24 @@
+Package: Fars
+Type: Package
+Title: Fatality Analysis Report
+Version: 0.1.0
+Imports: 
+    readr,
+    dplyr,
+    tidyr,
+    maps,
+    graphics,
+    magrittr,
+    knitr
+Author: Shristi
+Maintainer: Shristi <shr19818@gmail.com>
+Description: This package analyzes data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Suggests: 
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
